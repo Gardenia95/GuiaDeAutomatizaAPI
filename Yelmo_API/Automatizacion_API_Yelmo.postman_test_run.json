@@ -1,0 +1,176 @@
+{
+	"id": "136addb0-2007-4f41-8875-b945d6d14289",
+	"name": "Automatizacion_API_Yelmo",
+	"allTests": [],
+	"timestamp": "2018-07-25T14:57:48.282Z",
+	"collection_id": "66851e19-edc2-c211-cbe2-b7c3c741dc7e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "5c00c5f2-c4bd-fdda-2ea0-9ca6a90003e7",
+	"data": [],
+	"delay": 0,
+	"count": 2,
+	"collection": {
+		"id": "66851e19-edc2-c211-cbe2-b7c3c741dc7e",
+		"name": "Automatizacion_API_Yelmo",
+		"description": "",
+		"order": [
+			"f440a38c-4b62-3371-f399-99504106123b",
+			"ff38d131-e765-71e5-b2e5-77f331e9583c",
+			"d7e6c778-d2b1-b7f4-2b1b-b868beb45eaf"
+		],
+		"folders": [],
+		"folders_order": [],
+		"timestamp": 1532380462833,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "2742054",
+		"sharedWithTeam": false,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1532380462833,
+		"updatedAt": 1532388512898,
+		"write": true,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {},
+		"events": [],
+		"variables": [],
+		"auth": null
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Cities",
+			"id": "f440a38c-4b62-3371-f399-99504106123b",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"193",
+				"107"
+			],
+			"allTests": [
+				{},
+				null
+			],
+			"time": "107",
+			"totalRequestTime": "193107",
+			"iterationResults": {}
+		},
+		{
+			"name": "cinemas",
+			"id": "ff38d131-e765-71e5-b2e5-77f331e9583c",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"713",
+				"485"
+			],
+			"allTests": [
+				{},
+				null
+			],
+			"time": "485",
+			"totalRequestTime": "713485",
+			"iterationResults": {}
+		},
+		{
+			"name": "/v2/movies",
+			"id": "d7e6c778-d2b1-b7f4-2b1b-b868beb45eaf",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"201",
+				"176"
+			],
+			"allTests": [
+				{},
+				null
+			],
+			"time": "176",
+			"totalRequestTime": "201176",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 1875,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Cities",
+			"id": "f440a38c-4b62-3371-f399-99504106123b",
+			"url": "http://aws-ami-api.yelmocines.cinepolis.com/v3/locations/cities?country_code=ES",
+			"time": "107",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "cinemas",
+			"id": "ff38d131-e765-71e5-b2e5-77f331e9583c",
+			"url": "http://aws-ami-api.yelmocines.cinepolis.com/v2/schedules?country_code=ES&cities=32&include_cinemas=true&include_movies=true",
+			"time": "485",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "/v2/movies",
+			"id": "d7e6c778-d2b1-b7f4-2b1b-b868beb45eaf",
+			"url": "http://aws-ami-api.yelmocines.cinepolis.com/v2/movies?category=all&country_code=ES&cities=32",
+			"time": "176",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}

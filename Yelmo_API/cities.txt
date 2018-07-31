@@ -1,0 +1,436 @@
+{
+    "cities": [
+        {
+            "id": 21,
+            "name": "Valencia",
+            "uris": "valencia",
+            "lat": "39.4078969",
+            "lng": "-0.4315509",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 18,
+            "name": "Alicante",
+            "uris": "alicante",
+            "lat": "38.3579029",
+            "lng": "-0.5075435",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 20,
+            "name": "Pontevedra",
+            "uris": "pontevedra",
+            "lat": "42.4338911",
+            "lng": "-8.6568552",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 17,
+            "name": "Álava",
+            "uris": "alava",
+            "lat": "42.844774",
+            "lng": "-3.0399053",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 22,
+            "name": "A Coruña",
+            "uris": "a-coruna",
+            "lat": "43.361904",
+            "lng": "-8.4301933",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 23,
+            "name": "Almería",
+            "uris": "almeria",
+            "lat": "36.8684175",
+            "lng": "-2.5134069",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "media": [
+                {
+                    "type": "image",
+                    "code": "provincia",
+                    "resource": "tenerife.png"
+                }
+            ],
+            "id": 25,
+            "name": "Santa Cruz Tenerife",
+            "uris": "santa-cruz-tenerife",
+            "lat": "28.457857",
+            "lng": "-16.3038441",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": true,
+            "priority": 3,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 26,
+            "name": "Vizcaya",
+            "uris": "vizcaya",
+            "lat": "43.2196608",
+            "lng": "-3.2111744",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 27,
+            "name": "Albacete",
+            "uris": "albacete",
+            "lat": "38.9294184",
+            "lng": "-2.1817716",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "media": [
+                {
+                    "type": "image",
+                    "code": "provincia",
+                    "resource": "asturias.png"
+                }
+            ],
+            "id": 28,
+            "name": "Asturias",
+            "uris": "asturias",
+            "lat": "43.2741697",
+            "lng": "-6.4069521",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": true,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "media": [
+                {
+                    "type": "image",
+                    "code": "provincia",
+                    "resource": "barcelona.png"
+                }
+            ],
+            "id": 33,
+            "name": "Barcelona",
+            "uris": "barcelona",
+            "lat": "41.3948976",
+            "lng": "2.0787283",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": true,
+            "priority": 4,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "media": [
+                {
+                    "type": "image",
+                    "code": "provincia",
+                    "resource": "las_palmas.png"
+                }
+            ],
+            "id": 29,
+            "name": "Las Palmas",
+            "uris": "las-palmas",
+            "lat": "28.117432",
+            "lng": "-15.4746365",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": true,
+            "priority": 1,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "media": [
+                {
+                    "type": "image",
+                    "code": "provincia",
+                    "resource": "madrid.png"
+                }
+            ],
+            "id": 32,
+            "name": "Madrid",
+            "uris": "madrid",
+            "lat": "40.4381311",
+            "lng": "-3.8196195",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": true,
+            "priority": 5,
+            "settings": {
+                "has_food_sales": true
+            }
+        },
+        {
+            "media": [
+                {
+                    "type": "image",
+                    "code": "provincia",
+                    "resource": "malaga.png"
+                }
+            ],
+            "id": 34,
+            "name": "Málaga",
+            "uris": "malaga",
+            "lat": "36.765025",
+            "lng": "-4.5642722",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": true,
+            "priority": 2,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 24,
+            "name": "La Rioja",
+            "uris": "la-rioja",
+            "lat": "42.2818164",
+            "lng": "-2.6866655",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 30,
+            "name": "Tarragona",
+            "uris": "tarragona",
+            "lat": "41.1258358",
+            "lng": "1.2210641",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 31,
+            "name": "Zaragoza",
+            "uris": "zaragoza",
+            "lat": "41.6917474",
+            "lng": "-1.2072387",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 19,
+            "name": "Cádiz",
+            "uris": "cadiz",
+            "lat": "36.5164401",
+            "lng": "-6.3174657",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        },
+        {
+            "id": 35,
+            "name": "Navarra",
+            "uris": "navarra",
+            "lat": "42.8157447",
+            "lng": "-1.7200615",
+            "country": {
+                "name": "CinépolisES",
+                "code": "ES"
+            },
+            "region": {
+                "id": 1,
+                "name": "Maharashtra"
+            },
+            "is_featured": false,
+            "priority": 0,
+            "settings": {
+                "has_food_sales": false
+            }
+        }
+    ],
+    "routes": [
+        {
+            "code": "provincia",
+            "sizes": {
+                "large": "http://static.yelmocines.es/moviles/resources/es/cities/180x180",
+                "medium": "http://static.yelmocines.es/moviles/resources/es/cities/120x120",
+                "small": "http://static.yelmocines.es/moviles/resources/es/cities/60x60"
+            }
+        }
+    ]
+}

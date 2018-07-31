@@ -1,0 +1,71 @@
+{
+	"id": "33ad327c-a22c-f7f1-157d-ab9209dce5c4",
+	"name": "Automatización API",
+	"description": "",
+	"order": [
+		"0fb6c3c1-4034-401b-78e5-a0a9a92a4659"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1532096873874,
+	"owner": "2742054",
+	"public": false,
+	"events": [],
+	"variables": [],
+	"auth": null,
+	"requests": [
+		{
+			"id": "0fb6c3c1-4034-401b-78e5-a0a9a92a4659",
+			"headers": "Content-Type: {{CONTENT}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "{{CONTENT}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{URL}}v1/prod/internal/api/channelListBySection",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9af8c0ce-9234-4072-b317-2ba84c82b29e",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						]
+					}
+				}
+			],
+			"auth": null,
+			"method": "POST",
+			"collectionId": "33ad327c-a22c-f7f1-157d-ab9209dce5c4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "channelListBySection",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1532363557324,
+			"version": 2,
+			"responses": [],
+			"preRequestScript": null,
+			"tests": "pm.test(\"Status code is 200\", function () {\n    pm.response.to.have.status(200);\n});\n",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "\n\n{\"header\":\n{\"device\":\"22\",\n\"pass\":\"2dcf69e70a2d6f24eca61ba9d6989cc5\",\n\"platform\":\"Web\",\n\"user\":\"KLIC_AM_01\"},\n\"params\":{\"section\":\"home\"}}"
+		}
+	]
+}
